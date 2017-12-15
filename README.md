@@ -1,5 +1,5 @@
 # Django-Interview-Project
-Variable based template display.
+Implemented the project according to the requirements below: 
 
 Regarding the aggregations: sum is implement one in Python code and average as database query, using Django's database API over raw SQL.
 
