@@ -1,7 +1,10 @@
 # Django-Interview-Project
 Variable based template display.\
+
 Regarding the aggregations: sum is implement one in Python code and average as database query, using Django's database API over raw SQL.\
+
 Bootstrap as front-end framework\
+
 Keeped the URL logic according to <http://applicationtask.herokuapp.com>
 
 # Requirements
