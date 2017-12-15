@@ -37,11 +37,12 @@ If you want to have an application in your project, you will need to start an ap
 (virtualenv)project/directory$: python manage.py startapp 'application name that you want'
 
 # Database
-For migration:\
-(virtualenv)project/directory$: python manage.py migrate <application name in your project>
 
-To make migration: \
+To create models for database: \
 (virtualenv)project/directory$: python manage.py makemigrations <application name in your project>
+  
+To apply models into database:\
+(virtualenv)project/directory$: python manage.py migrate <application name in your project>
   
 # Unit Test
 
