@@ -36,5 +36,8 @@ For migration:\
 
 You may find the unit test in sites/tests.py file.
 
+To run the unit tests:\
+(virtualenv)project/directory$: python manager.py test sites.tests
+
 # Note
 Under sites/views.py, you may see a E128(E128 continuation line under-indented for visual indent) PEP8 problem; nevertheless, the conflict comes from the style of Django.
