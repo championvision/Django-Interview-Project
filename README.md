@@ -22,7 +22,8 @@ pytz==2017.3
 Clone project, git clone https://github.com/iskenderunlu/Django-Interview-Project.git \
 Create a python3.5.2 virtual environment \
 Inside environment, run pip install -r requirements.txt, to install depencencies. \
-At the root of the project, start Django runserver, python manage.py runserver
+At the root of the project, start Django runserver, python manage.py runserver \
+On your web browser, visit <http://127.0.0.1:8000>
 
 # Django Install
 Python Version: 3.5.2
