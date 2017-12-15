@@ -1,9 +1,9 @@
 # Django-Interview-Project
-Variable based template display.\
+Variable based template display.
 
-Regarding the aggregations: sum is implement one in Python code and average as database query, using Django's database API over raw SQL.\
+Regarding the aggregations: sum is implement one in Python code and average as database query, using Django's database API over raw SQL.
 
-Bootstrap as front-end framework\
+Bootstrap as front-end framework
 
 Keeped the URL logic according to <http://applicationtask.herokuapp.com>
 
@@ -26,10 +26,10 @@ If you want to have an application in your project, you will need to start an ap
 (virtualenv)project/directory$: python manage.py startapp <application name that you want>
 
 # Database
-To set your models into db:\
-(virtualenv)project/directory$: python manage.py makemigrations <application name in your project>\
+To set your models into db:
+(virtualenv)project/directory$: python manage.py makemigrations <application name in your project>
   
-For migration:\
+For migration:
 (virtualenv)project/directory$: python manage.py migrate <application name in your project>
 
 # Unit Test
