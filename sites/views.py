@@ -33,7 +33,8 @@ def summary(request):
     # key-value pair for a_values of Demosite model.qs_sum take
     # queryset as input parameter, and sums each value in each
     # dictionary in the queryset. Owing to qs_sum method, we can
-    # sum all a_values of Demosite model.qs_sum returns float
+    # sum all a_values of Demosite model.qs_sum returns float. This
+    # view method is for summary.html
     demo_a_values = Demosite.objects.values('a_value')
     sum_demo_a_values = qs_sum(demo_a_values)
     demo_b_values = Demosite.objects.values('b_value')
@@ -67,6 +68,9 @@ def qs_sum(qs):
 
 
 def summary_average(request):
+    # For example Demosite.objects.all().aggregate(Avg('a_value')) returns
+    # a dictionary for the average of a_values of the model of Demosite.This
+    # view method is for summary-average.html
     avg_demo_a_values = Demosite.objects.all().aggregate(Avg('a_value'))
     avg_demo_b_values = Demosite.objects.all().aggregate(Avg('b_value'))
     avg_abc_a_values = Abcsite.objects.all().aggregate(Avg('a_value'))
