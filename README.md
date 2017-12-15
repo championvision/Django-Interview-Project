@@ -32,5 +32,6 @@ If you want to have an application in your project, you will need to start an ap
 # Database
 To set your models into db:\
 (virtualenv)project/directory$: python manage.py makemigrations <application name in your project>\
-For migration\
+  
+For migration:\
 (virtualenv)project/directory$: python manage.py migrate <application name in your project>
