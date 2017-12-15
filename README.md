@@ -7,11 +7,22 @@ Bootstrap as front-end framework
 
 Keeped the URL logic according to <http://applicationtask.herokuapp.com>
 
-# Requirements
+# Prerequisities
 (virtualenv)project/directory$:pip freeze:
 
+
 Django==2.0\
+flake8==3.5.0\
+mccabe==0.6.1\
+pycodestyle==2.3.1\
+pyflakes==1.6.0\
 pytz==2017.3
+
+# Installing && Running
+Clone project, git clone https://github.com/iskenderunlu/Django-Interview-Project.git \
+Create a python3.5.2 virtual environment \
+Inside environment, run pip install -r requirements.txt, to install depencencies. \
+At the root of the project, start Django runserver, python manage.py runserver
 
 # Django Install
 Python Version: 3.5.2
