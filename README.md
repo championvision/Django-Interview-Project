@@ -34,15 +34,15 @@ Install through pip in a Virtualenv for the version 3 of Python <https://www.dig
 
 # Application Start
 If you want to have an application in your project, you will need to start an application.\
-(virtualenv)project/directory$: python manage.py startapp <application name that you want>
+(virtualenv)project/directory$: python manage.py startapp 'application name that you want'
 
 # Database
-To set your models into db:\
-(virtualenv)project/directory$: python manage.py makemigrations <application name in your project>
-  
 For migration:\
 (virtualenv)project/directory$: python manage.py migrate <application name in your project>
 
+To make migration: \
+(virtualenv)project/directory$: python manage.py makemigrations <application name in your project>
+  
 # Unit Test
 
 You may find the unit test in sites/tests.py file.
