@@ -12,7 +12,7 @@ Install through pip in a Virtualenv for the version 3 of Python <https://www.dig
 # Requirements
 (virtualenv)project/directory$:pip freeze:
 
-Django==2.0
+Django==2.0\
 pytz==2017.3
 
 # Note
